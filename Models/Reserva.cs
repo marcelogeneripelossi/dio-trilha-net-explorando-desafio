@@ -34,7 +34,7 @@ namespace DesafioProjetoHospedagem.Models
             return Hospedes.Count;
         }
 
-        public decimal CalcularValorDiaria()
+        public decimal CalcularValorHospedagem()
         {
             // Retorna o valor da diária
             // Cálculo: DiasReservados X Suite.ValorDiaria
